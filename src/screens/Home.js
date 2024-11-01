@@ -13,7 +13,7 @@ import Products from '../components/Products';
 const Home = () => {
   return (
     <View style={{backgroundColor: colors.white, flex: 1}}>
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <Header />
         <HeaderText />
         <Products />
